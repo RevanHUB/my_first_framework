@@ -1,0 +1,21 @@
+:root {
+    --mainFont: 'Inter Tight';
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    text-transform:capitalize;
+}
+
+#root {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    max-width:100vw;
+    text-align:center;
+    font-family:var(--mainFont);
+}
